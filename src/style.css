@@ -64,21 +64,27 @@ html{
     display: flex;
     margin-top: 15px;
     gap: 17px;
-
+ 
 }
 
 .info--buttons--email{
     display: flex;
     font-family: Inter;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     padding: 9px 13px 9px 11px;
-    
+    cursor: pointer;
     width: 115px;
     height: 34px;
     left: 151px;
     top: 468px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
     
     /* white */
     
@@ -93,6 +99,13 @@ html{
     border-radius: 6px;
 }
 
+.info--buttons--email:active{
+    background-color: gray;
+}
+.info--buttons-linkedin:active {
+    background-color: #29507c;
+}
+
 .info--buttons-linkedin{
     display: flex;
     font-family: Inter;
@@ -100,11 +113,18 @@ html{
     justify-content: center;
     align-items: center;
     padding: 9px 13px 9px 11px;
-
+    cursor: pointer;
+    justify-content: space-evenly;
     width: 115px;
     height: 34px;
     left: 283px;
     top: 468px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: white;
 
     background: #5093E2;
 /* shadow/sm */
@@ -154,4 +174,14 @@ html{
     top: 760px;
     background: #161619;
     border-radius: 0px 0px 10px 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer--image{
+    margin: 0;
+
+    margin-top: 15px;
+    height: 25px;
+    width: 25px;
 }

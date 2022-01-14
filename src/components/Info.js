@@ -1,5 +1,7 @@
 import React from "react";
 import myPhoto from "../images/myphoto.jpg"
+import mail from "../images/mail.png"
+import linkedin from "../images/linkedin.png"
 
 export default function About(){
     return (
@@ -9,8 +11,13 @@ export default function About(){
             <h4 className="info--title">Web Developer</h4>
             <h6 className="info--email">Chris@chriscancode.io</h6>
             <div className="info--buttons">
-                <button className="info--buttons--email">Email</button>
-                <button className="info--buttons-linkedin">LinkedIn</button>
+                <button className="info--buttons--email">
+                    <img alt="email" src={mail} />Email
+                    </button>
+                <button className="info--buttons-linkedin">
+                    <img alt="linked in" src={linkedin} />
+                    LinkedIn
+                    </button>
             </div>
         </div>
     )
