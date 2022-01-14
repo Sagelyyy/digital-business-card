@@ -15,6 +15,7 @@ html{
     align-items: center;
     background: #1A1B21;
     line-height: 30px;
+    border-radius: 15px 15px 0px 0px;
 }
 
 .info--photo{
@@ -112,3 +113,45 @@ html{
     border-radius: 6px;
 }
 
+.about {
+    width: 317px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background: #1A1B21;
+}
+
+.about--title{
+    margin: 0;
+    margin-left: 36px;
+    margin-top: 33px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    color: #F5F5F5;
+}
+
+.about--text {
+    margin: 0;
+    margin-left: 36px;
+    margin-right: 36px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10.24px;
+    line-height: 150%;
+    width: 247px;
+    height: 61px;
+    color: #DCDCDC;
+}
+
+.footer {
+    margin: auto;
+    width: 317px;
+    height: 64px;
+    left: 116px;
+    top: 760px;
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+}
